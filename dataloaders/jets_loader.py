@@ -6,7 +6,7 @@ import numpy as np
 from torch.utils.data import Dataset, DataLoader, Sampler
 from datetime import datetime
 
-data_dir = 'data/jets_data_all/'
+data_dir = 'data/'
 node_features_list = ['trk_d0', 'trk_z0', 'trk_phi', 'trk_ctgtheta', 'trk_pt', 'trk_charge']
 jet_features_list = ['jet_pt', 'jet_eta', 'jet_phi', 'jet_M']
 
